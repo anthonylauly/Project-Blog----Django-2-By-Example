@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'ow$xtxz=z0ryb96xk^d+qre#&vf1h#rhzv=26@)so(1lxjj!xq'
+SECRET_KEY = '#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -61,8 +61,8 @@ ROOT_URLCONF = 'project_blog.urls'
 #EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'fortunejranthony@gmail.com'
-EMAIL_HOST_PASSWORD = 'Anthony1833.'
+EMAIL_HOST_USER = '#'
+EMAIL_HOST_PASSWORD = '#'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
@@ -92,8 +92,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'blog',
-        'USER': 'postgres',
-        'PASSWORD': 'admin',
+        'USER': '#',
+        'PASSWORD': '#',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
